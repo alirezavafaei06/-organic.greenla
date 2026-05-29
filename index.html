@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>عطاری و ارگانیک‌سرای گرینلا | گیاهان دارویی سمنان</title>
+<meta name="description" content="عطاری و ارگانیک‌سرای گرینلا در سمنان. خرید گیاهان دارویی، دمنوش، عسل طبیعی، روغن‌های گیاهی و محصولات ارگانیک. تماس: ۰۹۱۹۲۷۶۲۰۴۷">
+<meta name="keywords" content="عطاری گرینلا, ارگانیک گرینلا, گیاهان دارویی سمنان, عطاری سمنان, محصولات ارگانیک سمنان, دمنوش طبیعی, عسل طبیعی سمنان, شهرک گلستان سمنان">
+<meta name="author" content="ارگانیک‌سرای گرینلا">
+<meta property="og:title" content="عطاری و ارگانیک‌سرای گرینلا سمنان">
+<meta property="og:description" content="بهترین گیاهان دارویی و محصولات ارگانیک در سمنان">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://greenla.ir">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --sage: #4a7c59;
+    --sage-light: #6a9e78;
+    --sage-dark: #2d5240;
+    --cream: #f5f0e8;
+    --warm-white: #faf8f3;
+    --earth: #8b6914;
+    --earth-light: #c49a2e;
+    --text-dark: #1a2e1f;
+    --text-mid: #3d5a45;
+    --text-light: #7a9a82;
+    --gold: #c4a832;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Vazirmatn', sans-serif;
+    background: var(--warm-white);
+    color: var(--text-dark);
+    overflow-x: hidden;
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    min-height: 100vh;
+    background: var(--sage-dark);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 110%, rgba(74,124,89,0.6) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 40% at 10% 20%, rgba(196,168,50,0.15) 0%, transparent 60%),
+      radial-gradient(ellipse 30% 30% at 90% 80%, rgba(106,158,120,0.2) 0%, transparent 60%);
+  }
+
+  /* Leaf decorations */
+  .leaf {
+    position: absolute;
+    opacity: 0.07;
+    font-size: 180px;
+    animation: sway 8s ease-in-out infinite;
+    user-select: none;
+    pointer-events: none;
+  }
+  .leaf-1 { top: 5%; left: -3%; animation-delay: 0s; transform: rotate(-20deg); }
+  .leaf-2 { bottom: 10%; right: -2%; animation-delay: 3s; transform: rotate(30deg); font-size: 220px; }
+  .leaf-3 { top: 40%; left: 8%; animation-delay: 5s; font-size: 100px; transform: rotate(-40deg); }
+
+  @keyframes sway {
+    0%, 100% { transform: rotate(-20deg) translateY(0); }
+    50% { transform: rotate(-15deg) translateY(-15px); }
+  }
+
+  .hero-badge {
+    background: rgba(196,168,50,0.2);
+    border: 1px solid rgba(196,168,50,0.5);
+    color: var(--gold);
+    padding: 6px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 28px;
+    position: relative;
+    animation: fadeUp 0.8s ease both;
+  }
+
+  .hero h1 {
+    font-size: clamp(38px, 8vw, 88px);
+    font-weight: 800;
+    color: var(--cream);
+    line-height: 1.1;
+    position: relative;
+    animation: fadeUp 0.9s 0.1s ease both;
+    letter-spacing: -1px;
+  }
+
+  .hero h1 span {
+    color: var(--earth-light);
+    display: block;
+  }
+
+  .hero-sub {
+    color: rgba(245,240,232,0.65);
+    font-size: clamp(14px, 2.5vw, 18px);
+    max-width: 500px;
+    line-height: 1.8;
+    margin-top: 18px;
+    position: relative;
+    animation: fadeUp 1s 0.2s ease both;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 14px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    animation: fadeUp 1s 0.3s ease both;
+  }
+
+  .btn {
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .btn-primary {
+    background: var(--earth-light);
+    color: var(--sage-dark);
+    border: none;
+  }
+  .btn-primary:hover { background: var(--gold); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(196,168,50,0.4); }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--cream);
+    border: 1.5px solid rgba(245,240,232,0.4);
+  }
+  .btn-outline:hover { border-color: var(--cream); background: rgba(245,240,232,0.08); transform: translateY(-2px); }
+
+  .scroll-hint {
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    color: rgba(245,240,232,0.4);
+    font-size: 12px;
+    animation: bounce 2s ease-in-out infinite;
+  }
+  .scroll-hint::after {
+    content: '↓';
+    font-size: 18px;
+  }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(6px); }
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ─── NAV ─── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s ease;
+  }
+
+  nav.scrolled {
+    background: rgba(26,46,31,0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(74,124,89,0.2);
+    padding: 12px 32px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+  }
+
+  .nav-logo {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--cream);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+  }
+  .nav-logo .logo-text { color: var(--cream); }
+
+  .nav-links { display: flex; gap: 28px; list-style: none; }
+  .nav-links a {
+    color: rgba(245,240,232,0.75);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--earth-light); }
+
+  /* ─── SECTION COMMON ─── */
+  section { padding: 96px 24px; }
+
+  .container { max-width: 1100px; margin: 0 auto; }
+
+  .section-tag {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--sage);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-tag::before {
+    content: '';
+    width: 24px; height: 2px;
+    background: var(--sage-light);
+    display: inline-block;
+  }
+
+  .section-title {
+    font-size: clamp(28px, 5vw, 48px);
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--text-dark);
+  }
+
+  /* ─── ABOUT ─── */
+  .about {
+    background: var(--cream);
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+    margin-top: 56px;
+  }
+
+  .about-visual {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-card {
+    background: var(--sage-dark);
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 28px;
+  }
+
+  .about-card-main {
+    background: linear-gradient(160deg, var(--sage) 0%, var(--sage-dark) 100%);
+    flex: 1.3;
+  }
+
+  .about-card-accent {
+    background: linear-gradient(160deg, var(--earth) 0%, var(--earth-light) 100%);
+    flex: 1;
+  }
+
+  .herb-emoji-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    font-size: 36px;
+    margin-bottom: 16px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+
+  .about-card-label {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.8;
+    letter-spacing: 1px;
+  }
+
+  .about-card-value {
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 4px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+    line-height: 2;
+    color: var(--text-mid);
+    margin-bottom: 20px;
+  }
+
+  .stats-row {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(74,124,89,0.2);
+  }
+
+  .stat-item {}
+  .stat-num {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--sage);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 13px;
+    color: var(--text-light);
+    margin-top: 4px;
+  }
+
+  /* ─── PRODUCTS ─── */
+  .products { background: var(--warm-white); }
+
+  .products-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 48px;
+  }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .product-card {
+    background: var(--cream);
+    border-radius: 20px;
+    padding: 32px 24px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+
+  .product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 60px rgba(74,124,89,0.15);
+    border-color: rgba(74,124,89,0.2);
+  }
+
+  .product-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--sage), var(--sage-light));
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .product-card:hover::before { opacity: 1; }
+
+  .product-emoji {
+    font-size: 52px;
+    margin-bottom: 16px;
+    display: block;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+    transition: transform 0.3s ease;
+  }
+  .product-card:hover .product-emoji { transform: scale(1.1) rotate(-5deg); }
+
+  .product-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+  }
+
+  .product-desc {
+    font-size: 13px;
+    line-height: 1.8;
+    color: var(--text-light);
+  }
+
+  .product-tag {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 4px 12px;
+    background: rgba(74,124,89,0.1);
+    color: var(--sage);
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  /* ─── FEATURES ─── */
+  .features {
+    background: var(--sage-dark);
+    color: white;
+  }
+
+  .features .section-tag { color: var(--earth-light); }
+  .features .section-title { color: white; }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 56px;
+  }
+
+  .feature-item {
+    padding: 32px 24px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: all 0.3s ease;
+  }
+  .feature-item:hover {
+    background: rgba(255,255,255,0.09);
+    transform: translateY(-4px);
+  }
+
+  .feature-icon { font-size: 38px; margin-bottom: 16px; }
+  .feature-title { font-size: 16px; font-weight: 700; margin-bottom: 10px; }
+  .feature-text { font-size: 13px; opacity: 0.65; line-height: 1.8; }
+
+  /* ─── CONTACT ─── */
+  .contact { background: var(--cream); }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    margin-top: 56px;
+    align-items: start;
+  }
+
+  .contact-info-list { list-style: none; display: flex; flex-direction: column; gap: 20px; }
+
+  .contact-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+    background: white;
+    border-radius: 16px;
+    transition: all 0.3s;
+  }
+  .contact-info-item:hover { box-shadow: 0 8px 30px rgba(74,124,89,0.1); transform: translateX(-4px); }
+
+  .contact-icon {
+    width: 44px; height: 44px;
+    background: var(--sage);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+
+  .contact-info-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-light);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+
+  .contact-info-value {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-dark);
+    direction: ltr;
+    text-align: right;
+  }
+
+  .contact-info-value a {
+    color: var(--sage-dark);
+    text-decoration: none;
+  }
+  .contact-info-value a:hover { color: var(--sage); }
+
+  .map-embed {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    min-height: 380px;
+    border: none;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+  }
+
+  .map-placeholder {
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+    background: linear-gradient(135deg, var(--sage-dark) 0%, var(--sage) 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 32px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .map-placeholder:hover { transform: scale(1.01); box-shadow: 0 20px 60px rgba(45,82,64,0.4); }
+
+  .map-icon { font-size: 56px; margin-bottom: 16px; }
+  .map-title { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+  .map-sub { font-size: 14px; opacity: 0.75; line-height: 1.7; }
+  .map-cta {
+    margin-top: 20px;
+    padding: 10px 24px;
+    background: var(--earth-light);
+    color: var(--sage-dark);
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  /* ─── SOCIAL ─── */
+  .social-bar {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 28px 0 20px;
+  }
+
+  .social-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 1.5px solid;
+  }
+
+  .social-btn-ig {
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+    border-color: transparent;
+  }
+  .social-btn-ig:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(220,39,67,0.4); }
+
+  .social-btn-eitaa {
+    background: #2196F3;
+    color: white;
+    border-color: transparent;
+  }
+  .social-btn-eitaa:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(33,150,243,0.4); }
+
+  .social-icon { font-size: 20px; line-height: 1; }
+
+  /* social in contact */
+  .contact-social {
+    margin-top: 20px;
+    display: flex;
+    gap: 12px;
+  }
+  .contact-social .social-btn { padding: 10px 20px; font-size: 13px; }
+
+  /* ─── FOOTER ─── */
+  footer {
+    background: var(--text-dark);
+    color: white;
+    padding: 48px 24px 32px;
+    text-align: center;
+  }
+
+  .footer-logo {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 12px;
+  }
+  .footer-logo span { color: var(--earth-light); }
+
+  .footer-sub {
+    font-size: 13px;
+    opacity: 0.5;
+    margin-bottom: 32px;
+  }
+
+  .footer-divider {
+    width: 40px;
+    height: 2px;
+    background: var(--sage);
+    margin: 0 auto 24px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    opacity: 0.35;
+  }
+
+  /* ─── HOURS BADGE ─── */
+  .hours-banner {
+    background: var(--sage);
+    color: white;
+    text-align: center;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .hours-banner strong { color: var(--earth-light); }
+
+  /* ─── MOBILE ─── */
+  @media (max-width: 768px) {
+    nav { padding: 14px 20px; }
+    .nav-links { display: none; }
+    section { padding: 64px 20px; }
+
+    .about-grid,
+    .contact-grid { grid-template-columns: 1fr; gap: 36px; }
+
+    .about-visual { min-height: 300px; }
+
+    .products-grid { grid-template-columns: 1fr 1fr; }
+    .features-grid { grid-template-columns: 1fr 1fr; }
+
+    .products-intro { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .stats-row { gap: 20px; }
+  }
+
+  @media (max-width: 480px) {
+    .products-grid { grid-template-columns: 1fr; }
+    .features-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ─── SCROLL REVEAL ─── */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.7s ease;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+</head>
+<body>
+
+<!-- Hours Banner -->
+<div class="hours-banner">
+  ساعت کاری: <strong>۱۰ صبح تا ۲ ظهر</strong> — <strong>۵ عصر تا ۱۰ شب</strong> &nbsp;|&nbsp; هر روز هفته
+</div>
+
+<!-- Navigation -->
+<nav id="navbar">
+  <div class="nav-logo">🌿 <span class="logo-text">گرینلا</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">درباره ما</a></li>
+    <li><a href="#products">محصولات</a></li>
+    <li><a href="#features">ویژگی‌ها</a></li>
+    <li><a href="#contact">تماس</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <span class="leaf leaf-1">🌿</span>
+  <span class="leaf leaf-2">🌱</span>
+  <span class="leaf leaf-3">🍃</span>
+
+  <div class="hero-badge">عطاری و ارگانیک‌سرا &nbsp;·&nbsp; سمنان</div>
+  <h1>
+    گرینلا
+    <span>طبیعت در خدمت سلامت</span>
+  </h1>
+  <p class="hero-sub">
+    بهترین گیاهان دارویی، محصولات ارگانیک و دمنوش‌های طبیعی<br>
+    مستقیم از دل طبیعت به سفره‌ی شما
+  </p>
+  <div class="hero-cta">
+    <a href="#products" class="btn btn-primary">مشاهده محصولات 🌿</a>
+    <a href="#contact" class="btn btn-outline">تماس با ما</a>
+  </div>
+
+  <div class="scroll-hint">اسکرول کنید</div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-tag">درباره ما</div>
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-card about-card-main">
+          <div class="herb-emoji-grid">
+            <span>🌿</span><span>🍃</span><span>🌾</span>
+            <span>🌸</span><span>🌻</span><span>🫚</span>
+          </div>
+          <div class="about-card-label">تنوع محصولات</div>
+          <div class="about-card-value">گیاهان دارویی طبیعی</div>
+        </div>
+        <div class="about-card about-card-accent">
+          <div style="font-size:42px;margin-bottom:8px;">🌱</div>
+          <div class="about-card-label">کیفیت ارگانیک</div>
+          <div class="about-card-value">۱۰۰٪ طبیعی</div>
+        </div>
+      </div>
+
+      <div class="about-text reveal">
+        <div class="section-tag">داستان ما</div>
+        <h2 class="section-title">عطاری گرینلا<br>امانتدار طبیعت</h2>
+        <p style="margin-top:20px;">
+          عطاری و ارگانیک‌سرای گرینلا با افتخار در قلب شهرک گلستان سمنان خدمت‌رسانی می‌کند.
+          ما با انتخاب دقیق بهترین گیاهان دارویی، دمنوش‌ها و محصولات ارگانیک، سلامتی خانواده شما را در اولویت می‌دانیم.
+        </p>
+        <p>
+          از زنجبیل و زعفران تا انواع چای‌های گیاهی و روغن‌های طبیعی — همه چیز با کیفیت تضمینی و
+          مشاوره تخصصی رایگان در اختیار شماست.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-item">
+            <div class="stat-num">+۲۰۰</div>
+            <div class="stat-label">نوع گیاه دارویی</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">۱۰۰٪</div>
+            <div class="stat-label">طبیعی و ارگانیک</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">هر روز</div>
+            <div class="stat-label">آماده خدمت‌رسانی</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products -->
+<section class="products" id="products">
+  <div class="container">
+    <div class="products-intro reveal">
+      <div>
+        <div class="section-tag">محصولات ما</div>
+        <h2 class="section-title">از طبیعت برای شما</h2>
+      </div>
+      <a href="#contact" class="btn btn-primary" style="flex-shrink:0;">سفارش دهید</a>
+    </div>
+
+    <div class="products-grid">
+      <div class="product-card reveal">
+        <span class="product-emoji">🌿</span>
+        <div class="product-name">گیاهان دارویی</div>
+        <div class="product-desc">انواع گیاهان دارویی خشک و تازه با کیفیت بالا از مراتع ایران</div>
+        <span class="product-tag">طبیعی ۱۰۰٪</span>
+      </div>
+      <div class="product-card reveal">
+        <span class="product-emoji">🫖</span>
+        <div class="product-name">دمنوش و چای گیاهی</div>
+        <div class="product-desc">ترکیبات ویژه دمنوش برای آرامش، تقویت ایمنی و خواب راحت</div>
+        <span class="product-tag">بدون افزودنی</span>
+      </div>
+      <div class="product-card reveal">
+        <span class="product-emoji">🌹</span>
+        <div class="product-name">گلاب و عرقیجات</div>
+        <div class="product-desc">عرق‌های گیاهی اصیل ایرانی، گلاب محلی و عرق نعناع طبیعی</div>
+        <span class="product-tag">سنتی اصیل</span>
+      </div>
+      <div class="product-card reveal">
+        <span class="product-emoji">🫚</span>
+        <div class="product-name">روغن‌های طبیعی</div>
+        <div class="product-desc">روغن سیاه‌دانه، روغن زیتون بکر، روغن بادام و انواع روغن‌های گیاهی</div>
+        <span class="product-tag">سرد فشاری</span>
+      </div>
+      <div class="product-card reveal">
+        <span class="product-emoji">🍯</span>
+        <div class="product-name">عسل و محصولات زنبور</div>
+        <div class="product-desc">عسل طبیعی چند گل، عسل سیاه‌دانه و انواع عسل‌های مرغوب</div>
+        <span class="product-tag">مستقیم از کندو</span>
+      </div>
+      <div class="product-card reveal">
+        <span class="product-emoji">🧂</span>
+        <div class="product-name">ادویه و چاشنی</div>
+        <div class="product-desc">زعفران درجه یک، زیره، گلاب، هل و انواع ادویه‌های اصیل ایرانی</div>
+        <span class="product-tag">درجه یک</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-tag">چرا گرینلا؟</div>
+      <h2 class="section-title">تعهد ما به کیفیت</h2>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-item reveal">
+        <div class="feature-icon">🌱</div>
+        <div class="feature-title">ارگانیک و طبیعی</div>
+        <div class="feature-text">تمام محصولات ما بدون سموم شیمیایی و کاملاً طبیعی هستند</div>
+      </div>
+      <div class="feature-item reveal">
+        <div class="feature-icon">👨‍⚕️</div>
+        <div class="feature-title">مشاوره رایگان</div>
+        <div class="feature-text">راهنمایی تخصصی در انتخاب گیاهان مناسب برای نیاز شما</div>
+      </div>
+      <div class="feature-item reveal">
+        <div class="feature-icon">🏆</div>
+        <div class="feature-title">کیفیت تضمینی</div>
+        <div class="feature-text">محصولات با کیفیت اعلا و انتخاب دقیق از بهترین منابع</div>
+      </div>
+      <div class="feature-item reveal">
+        <div class="feature-icon">🤝</div>
+        <div class="feature-title">قیمت مناسب</div>
+        <div class="feature-text">بهترین کیفیت با منصفانه‌ترین قیمت برای مشتریان عزیز</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-tag">تماس با ما</div>
+      <h2 class="section-title">بیایید با هم آشنا شویم</h2>
+    </div>
+
+    <div class="contact-grid">
+      <ul class="contact-info-list">
+        <li class="contact-info-item reveal">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-info-label">آدرس</div>
+            <div class="contact-info-value" style="direction:rtl;text-align:right;">
+              سمنان، بلوار بوستان، نبوت، بین میدان توحید و طبیعت (شهرک گلستان)
+            </div>
+          </div>
+        </li>
+        <li class="contact-info-item reveal">
+          <div class="contact-icon">📞</div>
+          <div>
+            <div class="contact-info-label">شماره تماس</div>
+            <div class="contact-info-value">
+              <a href="tel:+989192762047">۰۹۱۹ ۲۷۶ ۲۰۴۷</a>
+            </div>
+          </div>
+        </li>
+        <li class="contact-info-item reveal">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <div class="contact-info-label">ساعت کاری</div>
+            <div class="contact-info-value" style="direction:rtl;text-align:right;">
+              صبح: ۱۰:۰۰ تا ۱۴:۰۰ &nbsp;|&nbsp; عصر: ۱۷:۰۰ تا ۲۲:۰۰
+            </div>
+          </div>
+        </li>
+        <li class="contact-info-item reveal">
+          <div class="contact-icon">👤</div>
+          <div>
+            <div class="contact-info-label">فروشنده</div>
+            <div class="contact-info-value" style="direction:rtl;text-align:right;">وفایی‌نژاد</div>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="contact-social">
+            <a href="https://www.instagram.com/organic.greenla" target="_blank" class="social-btn social-btn-ig">
+              <span class="social-icon">📸</span> اینستاگرام
+            </a>
+            <a href="https://eitaa.com/organic_greenla" target="_blank" class="social-btn social-btn-eitaa">
+              <span class="social-icon">💬</span> ایتا
+            </a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="reveal">
+        <a href="https://maps.app.goo.gl/2vN7TPMbNgbC9WyE6" target="_blank" class="map-placeholder">
+          <div class="map-icon">🗺️</div>
+          <div class="map-title">موقعیت ما روی نقشه</div>
+          <div class="map-sub">
+            سمنان، شهرک گلستان<br>
+            بلوار بوستان، بین میدان توحید و طبیعت
+          </div>
+          <div class="map-cta">مسیریابی در گوگل مپ ←</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-logo">🌿 گرینلا</div>
+  <div class="footer-sub">عطاری و ارگانیک‌سرای گرینلا · سمنان</div>
+  <div class="social-bar">
+    <a href="https://www.instagram.com/organic.greenla" target="_blank" class="social-btn social-btn-ig">
+      <span class="social-icon">📸</span> organic.greenla
+    </a>
+    <a href="https://eitaa.com/organic_greenla" target="_blank" class="social-btn social-btn-eitaa">
+      <span class="social-icon">💬</span> organic_greenla
+    </a>
+  </div>
+  <div class="footer-divider"></div>
+  <div class="footer-bottom">
+    ساخته شده با ❤️ برای سلامت شما &nbsp;·&nbsp; تمام حقوق محفوظ است
+  </div>
+</footer>
+
+<script>
+  // Navbar scroll effect
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => observer.observe(el));
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "عطاری و ارگانیک‌سرای گرینلا",
+  "alternateName": ["گرینلا", "ارگانیک گرینلا", "Greenla"],
+  "description": "عطاری و فروشگاه محصولات ارگانیک در سمنان. گیاهان دارویی، دمنوش، عسل طبیعی و روغن‌های گیاهی",
+  "url": "https://greenla.ir",
+  "telephone": "+989192762047",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "بلوار بوستان، نبوت، بین میدان توحید و طبیعت، شهرک گلستان",
+    "addressLocality": "سمنان",
+    "addressCountry": "IR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "35.5790",
+    "longitude": "53.3878"
+  },
+  "openingHours": ["Mo-Su 10:00-14:00", "Mo-Su 17:00-22:00"],
+  "sameAs": [
+    "https://www.instagram.com/organic.greenla",
+    "https://eitaa.com/organic_greenla"
+  ],
+  "priceRange": "﷼﷼",
+  "@type": "LocalBusiness"
+}
+</script>
+</body>
+</html>
